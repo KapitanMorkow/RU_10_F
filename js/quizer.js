@@ -340,28 +340,158 @@ function load(){
 	setup();
 }
 
-// EN songs
+// RU songs
+const ru_2010_f_icon = [
+	'ru_pop'
+];
 
+const RU_2010_F_PACK_1 = 1;
 
+let ru_2010_f = [
+	{
+		pack : RU_2010_F_PACK_1,
+		group : 'Слава',
+		song : "Одиночество"
+	},
+	{
+		pack : RU_2010_F_PACK_1,
+		group : 'Вера Брежнева',
+		song : "Любовь спасёт мир"
+	},
+	{
+		pack : RU_2010_F_PACK_1,
+		group : 'Валерия',
+		song : "Капелькой неба"
+	},
+	{
+		pack : RU_2010_F_PACK_1,
+		group : 'Ирина Аллегрова',
+		song : "Не обернусь"
+	},
+	{
+		pack : RU_2010_F_PACK_1,
+		group : 'Ани Лорак',
+		song : "С первого взгляда"
+	},
+	{
+		pack : RU_2010_F_PACK_1,
+		group : 'Нюша',
+		song : "Выбирать чудо (2010)"
+	},
+	{
+		pack : RU_2010_F_PACK_1,
+		group : 'Зара',
+		song : "Недолюбила"
+	},
+	{
+		pack : RU_2010_F_PACK_1,
+		group : 'Елена Ваенга',
+		song : "Аэропорт"
+	},
+	{
+		pack : RU_2010_F_PACK_1,
+		group : 'Жанна Фриске',
+		song : "А на море белый песок"
+	},
+	{
+		pack : RU_2010_F_PACK_1,
+		group : 'Ёлка',
+		song : "Прованс"
+	},
+	{
+		pack : RU_2010_F_PACK_1,
+		group : 'Вера Брежнева',
+		song : "Реальная жизнь"
+	},
+	{
+		pack : RU_2010_F_PACK_1,
+		group : 'Ёлка',
+		song : "На большом воздушном шаре"
+	},
+	{
+		pack : RU_2010_F_PACK_1,
+		group : 'Зара',
+		song : "Амели"
+	},
+	{
+		pack : RU_2010_F_PACK_1,
+		group : 'Виктория Дайнеко',
+		song : "Сотри его из memory"
+	},
+	{
+		pack : RU_2010_F_PACK_1,
+		group : 'Ёлка',
+		song : "Около тебя"
+	},
+	{
+		pack : RU_2010_F_PACK_1,
+		group : 'Полина Гагарина',
+		song : "Спектакль окончен"
+	},
+	{
+		pack : RU_2010_F_PACK_1,
+		group : 'Слава',
+		song : "Sex не любовь"
+	},
+	{
+		pack : RU_2010_F_PACK_1,
+		group : 'Анита Цой',
+		song : "Зима-Лето"
+	},
+	{
+		pack : RU_2010_F_PACK_1,
+		group : 'Натали',
+		song : "О боже, какой мужчина"
+	},
+	{
+		pack : RU_2010_F_PACK_1,
+		group : 'Мари Краймбрери',
+		song : "На каблучках (2019)"
+	},
+	{
+		pack : RU_2010_F_PACK_1,
+		group : 'Мари Краймбрери',
+		song : "Amore (2018)"
+	},
+	{
+		pack : RU_2010_F_PACK_1,
+		group : 'Анна Асти',
+		song : "Без тебя (2019)"
+	},
+	{
+		pack : RU_2010_F_PACK_1,
+		group : 'Анна Асти',
+		song : "По барам (2022)"
+	},
+	{
+		pack : RU_2010_F_PACK_1,
+		group : 'Нюша',
+		song : "Выше (2011)"
+	},
+	{
+		pack : RU_2010_F_PACK_1,
+		group : 'Нюша',
+		song : "Больно (2010)"
+	},
+	{
+		pack : RU_2010_F_PACK_1,
+		group : 'Зиверт',
+		song : "Зеленые волны (201)"
+	}
+];
+
+let ru_2010_f_1 =	ru_2010_f.filter(item => item.pack == 1);
 
 let music = [
 	{
-		arr: en_2000_m,
-		lang: 'en',
-		year: '2000',
-		type: 'm',
+		arr: ru_2010_f,
+		lang: 'ru',
+		year: '2010',
+		type: 'f',
 		packs: [
 				{
-					arr: en_2000_m_1,
-					name: 'EN 2000s Male: Pop',
-				},
-				{
-					arr: en_2000_m_2,
-					name: 'EN 2000s Male: Dj',
-				},
-				{
-					arr: en_2000_m_3,
-					name: 'EN 2000s Male: Rap',
+					arr: ru_2010_f_1,
+					name: 'RU 2010s Female: Pop',
 				}
 			]
 	}
@@ -687,15 +817,15 @@ let generateAudioPath;
 let generateImgPath;
 
 function setup(){
-	lang = 'en';
-	year = '2000';
-	artist_type = 'm';
+	lang = 'ru';
+	year = '2010';
+	artist_type = 'f';
 	back = back_to_packages;
 	modeToggle = toggleArtist;
 	setMedia = setAudio;
 	rightAnswer = rightAnswer_RU;
 	count_time();
-	package_names = en_2000_gr_icon;
+	package_names = ru_2010_f_icon;
 	show_packages(package_names.length);
 	document.body.scrollTop = document.documentElement.scrollTop = 0;
 }
