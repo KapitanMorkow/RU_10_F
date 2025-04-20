@@ -352,30 +352,31 @@ let ru_2010_f = [
 	{
 		pack : RU_2010_F_PACK_1,
 		group : 'Слава',
-		song : "Одиночество",
-		year : 2011
+		song : "Одиночество (2011)"
 	},
 	{
 		pack : RU_2010_F_PACK_1,
 		group : 'Вера Брежнева',
-		song : "Любовь спасёт мир",
-		year : 2010
+		song : "Любовь спасёт мир (2010)"
 	},
 	{
 		pack : RU_2010_F_PACK_1,
 		group : 'Валерия',
 		song : "Капелькой неба",
-		year : 2015
+		year : 2015,
+		ignore : true
 	},
 	{
 		pack : RU_2010_F_PACK_1,
 		group : 'Ирина Аллегрова',
-		song : "Не обернусь"
+		song : "Не обернусь",
+		ignore : true
 	},
 	{
 		pack : RU_2010_F_PACK_1,
 		group : 'Ани Лорак',
-		song : "С первого взгляда"
+		song : "С первого взгляда (2007)",
+		ignore : true
 	},
 	{
 		pack : RU_2010_F_PACK_1,
@@ -385,67 +386,74 @@ let ru_2010_f = [
 	{
 		pack : RU_2010_F_PACK_1,
 		group : 'Зара',
-		song : "Недолюбила"
+		song : "Недолюбила (2009)",
+		ignore : true
 	},
 	{
 		pack : RU_2010_F_PACK_1,
 		group : 'Елена Ваенга',
-		song : "Аэропорт"
+		song : "Аэропорт (2005)",
+		ignore : true
 	},
 	{
 		pack : RU_2010_F_PACK_1,
 		group : 'Жанна Фриске',
-		song : "А на море белый песок"
+		song : "А на море белый песок (2009)",
+		ignore : true
 	},
 	{
 		pack : RU_2010_F_PACK_1,
 		group : 'Ёлка',
-		song : "Прованс"
+		song : "Прованс (2010)"
 	},
 	{
 		pack : RU_2010_F_PACK_1,
 		group : 'Вера Брежнева',
-		song : "Реальная жизнь"
+		song : "Реальная жизнь (2011)"
 	},
 	{
 		pack : RU_2010_F_PACK_1,
 		group : 'Ёлка',
-		song : "На большом воздушном шаре"
+		song : "На большом воздушном шаре (2011)"
 	},
 	{
 		pack : RU_2010_F_PACK_1,
 		group : 'Зара',
-		song : "Амели"
+		song : "Амели (2011)",
+		ignore : true
 	},
 	{
 		pack : RU_2010_F_PACK_1,
 		group : 'Виктория Дайнеко',
-		song : "Сотри его из memory"
+		song : "Сотри его из memory (2011)",
+		ignore : true
 	},
 	{
 		pack : RU_2010_F_PACK_1,
 		group : 'Ёлка',
-		song : "Около тебя"
+		song : "Около тебя (2011)"
 	},
 	{
 		pack : RU_2010_F_PACK_1,
 		group : 'Полина Гагарина',
-		song : "Спектакль окончен"
+		song : "Спектакль окончен (2012)",
+		ignore : true
 	},
 	{
 		pack : RU_2010_F_PACK_1,
 		group : 'Слава',
-		song : "Sex не любовь"
+		song : "Sex не любовь (2013)"
 	},
 	{
 		pack : RU_2010_F_PACK_1,
 		group : 'Анита Цой',
-		song : "Зима-Лето"
+		song : "Зима-Лето (2012)"
 	},
 	{
 		pack : RU_2010_F_PACK_1,
 		group : 'Натали',
-		song : "О боже, какой мужчина"
+		song : "О боже, какой мужчина (2012)",
+		ignore : true
 	},
 	{
 		pack : RU_2010_F_PACK_1,
@@ -479,8 +487,63 @@ let ru_2010_f = [
 	},
 	{
 		pack : RU_2010_F_PACK_1,
-		group : 'Зиверт',
-		song : "Зеленые волны (201)"
+		group : 'Zivert',
+		song : "Зеленые волны (2019)"
+	},
+	{
+		pack : RU_2010_F_PACK_1,
+		group : 'Zivert',
+		song : "Life (2018)"
+	},
+	{
+		pack : RU_2010_F_PACK_1,
+		group : 'Zivert',
+		song : "Beverly Hills (2019)"
+	},
+	{
+		pack : RU_2010_F_PACK_1,
+		group : 'Анита Цой',
+		song : "Мой воздух, моя любовь (2014)"
+	},
+	{
+		pack : RU_2010_F_PACK_1,
+		group : 'Анита Цой',
+		song : "Береги меня (2013)"
+	},
+	{
+		pack : RU_2010_F_PACK_1,
+		group : 'Анна Асти',
+		song : "Бумеранг (2023)"
+	},
+	{
+		pack : RU_2010_F_PACK_1,
+		group : 'Вера Брежнева',
+		song : "Близкие люди (2017)"
+	},
+	{
+		pack : RU_2010_F_PACK_1,
+		group : 'Мари Краймбрери',
+		song : "Пряталась в ванной (2020)"
+	},
+	{
+		pack : RU_2010_F_PACK_1,
+		group : 'Слава',
+		song : "Одиночество (2012)"
+	},
+	{
+		pack : RU_2010_F_PACK_1,
+		group : 'Люся Чеботина',
+		song : "Халява (2016)"
+	},
+	{
+		pack : RU_2010_F_PACK_1,
+		group : 'Люся Чеботина',
+		song : "Соблазн (2018)"
+	},
+	{
+		pack : RU_2010_F_PACK_1,
+		group : 'Люся Чеботина',
+		song : "Ночью и днём (2018)"
 	}
 ];
 
