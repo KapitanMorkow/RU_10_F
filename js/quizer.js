@@ -544,6 +544,86 @@ let ru_2010_f = [
 		pack : RU_2010_F_PACK_1,
 		group : 'Люся Чеботина',
 		song : "Ночью и днём (2018)"
+	},
+	{
+		pack : RU_2010_F_PACK_1,
+		group : 'Люся Чеботина',
+		song : "Солнце Монако (2021)"
+	},
+	{
+		pack : RU_2010_F_PACK_1,
+		group : 'Mary Gu',
+		song : "Не влюбляйся (2020)"
+	},
+	{
+		pack : RU_2010_F_PACK_1,
+		group : 'Mary Gu',
+		song : "Грустный Новый год (2019)"
+	},
+	{
+		pack : RU_2010_F_PACK_1,
+		group : 'Mary Gu',
+		song : "Я не прощаю (2018)"
+	},
+	{
+		pack : RU_2010_F_PACK_1,
+		group : 'Ани Лорак',
+		song : "Для тебя (2010)"
+	},
+	{
+		pack : RU_2010_F_PACK_1,
+		group : 'Ани Лорак',
+		song : "Осенняя любовь (2015)"
+	},
+	{
+		pack : RU_2010_F_PACK_1,
+		group : 'Ани Лорак',
+		song : "Медленно (2014)"
+	},
+	{
+		pack : RU_2010_F_PACK_1,
+		group : 'Юлианна Караулова',
+		song : "Ты не такой (2015)"
+	},
+	{
+		pack : RU_2010_F_PACK_1,
+		group : 'Юлианна Караулова',
+		song : "Внеорбитные (2016)"
+	},
+	{
+		pack : RU_2010_F_PACK_1,
+		group : 'Юлианна Караулова',
+		song : "Хьюстон (2016)"
+	},
+	{
+		pack : RU_2010_F_PACK_1,
+		group : 'Elvira T',
+		song : "Всё решено (2011)"
+	},
+	{
+		pack : RU_2010_F_PACK_1,
+		group : 'Elvira T',
+		song : "Такси (2016)"
+	},
+	{
+		pack : RU_2010_F_PACK_1,
+		group : 'Elvira T',
+		song : "Зараза (2018)"
+	},
+	{
+		pack : RU_2010_F_PACK_1,
+		group : 'Kristina Si',
+		song : "Хочу (2016)"
+	},
+	{
+		pack : RU_2010_F_PACK_1,
+		group : 'Kristina Si',
+		song : "Mama Boss (2014)"
+	},
+	{
+		pack : RU_2010_F_PACK_1,
+		group : 'Kristina Si',
+		song : "Тебе не будет больно (2016)"
 	}
 ];
 
