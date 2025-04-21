@@ -352,7 +352,7 @@ let ru_2010_f = [
 	{
 		pack : RU_2010_F_PACK_1,
 		group : 'Слава',
-		song : "Одиночество (2011)"
+		song : "Одиночество (2012)"
 	},
 	{
 		pack : RU_2010_F_PACK_1,
@@ -528,7 +528,8 @@ let ru_2010_f = [
 	{
 		pack : RU_2010_F_PACK_1,
 		group : 'Слава',
-		song : "Одиночество (2012)"
+		song : "Одиночество (2012)",
+		ignore : true
 	},
 	{
 		pack : RU_2010_F_PACK_1,
@@ -624,6 +625,11 @@ let ru_2010_f = [
 		pack : RU_2010_F_PACK_1,
 		group : 'Kristina Si',
 		song : "Тебе не будет больно (2016)"
+	},
+	{
+		pack : RU_2010_F_PACK_1,
+		group : 'Слава',
+		song : "Сто озёр и пять морей (2017)"
 	}
 ];
 
