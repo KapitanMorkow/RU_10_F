@@ -348,7 +348,7 @@ const ru_2010_f_icon = [
 ];
 
 const RU_2010_F_PACK_1 = 1;
-const RU_2010_F_PACK_2 = 1;
+const RU_2010_F_PACK_2 = 2;
 
 let ru_2010_f = [
 	{
