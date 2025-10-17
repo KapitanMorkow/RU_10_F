@@ -343,10 +343,12 @@ function load(){
 
 // RU songs
 const ru_2010_f_icon = [
-	'ru_pop'
+	'ru_pop',
+	'ru_pop_2'
 ];
 
 const RU_2010_F_PACK_1 = 1;
+const RU_2010_F_PACK_2 = 1;
 
 let ru_2010_f = [
 	{
@@ -456,22 +458,22 @@ let ru_2010_f = [
 		ignore : true
 	},
 	{
-		pack : RU_2010_F_PACK_1,
+		pack : RU_2010_F_PACK_2,
 		group : 'Мари Краймбрери',
 		song : "На каблучках (2019)"
 	},
 	{
-		pack : RU_2010_F_PACK_1,
+		pack : RU_2010_F_PACK_2,
 		group : 'Мари Краймбрери',
 		song : "Amore (2018)"
 	},
 	{
-		pack : RU_2010_F_PACK_1,
+		pack : RU_2010_F_PACK_2,
 		group : 'Анна Асти',
 		song : "Без тебя (2019)"
 	},
 	{
-		pack : RU_2010_F_PACK_1,
+		pack : RU_2010_F_PACK_2,
 		group : 'Анна Асти',
 		song : "По барам (2022)"
 	},
@@ -486,17 +488,17 @@ let ru_2010_f = [
 		song : "Больно (2010)"
 	},
 	{
-		pack : RU_2010_F_PACK_1,
+		pack : RU_2010_F_PACK_2,
 		group : 'Zivert',
 		song : "Зеленые волны (2019)"
 	},
 	{
-		pack : RU_2010_F_PACK_1,
+		pack : RU_2010_F_PACK_2,
 		group : 'Zivert',
 		song : "Life (2018)"
 	},
 	{
-		pack : RU_2010_F_PACK_1,
+		pack : RU_2010_F_PACK_2,
 		group : 'Zivert',
 		song : "Beverly Hills (2019)"
 	},
@@ -511,7 +513,7 @@ let ru_2010_f = [
 		song : "Береги меня (2013)"
 	},
 	{
-		pack : RU_2010_F_PACK_1,
+		pack : RU_2010_F_PACK_2,
 		group : 'Анна Асти',
 		song : "Бумеранг (2023)"
 	},
@@ -521,7 +523,7 @@ let ru_2010_f = [
 		song : "Близкие люди (2017)"
 	},
 	{
-		pack : RU_2010_F_PACK_1,
+		pack : RU_2010_F_PACK_2,
 		group : 'Мари Краймбрери',
 		song : "Пряталась в ванной (2020)"
 	},
@@ -532,37 +534,38 @@ let ru_2010_f = [
 		ignore : true
 	},
 	{
-		pack : RU_2010_F_PACK_1,
+		pack : RU_2010_F_PACK_2,
 		group : 'Люся Чеботина',
 		song : "Халява (2016)"
 	},
 	{
-		pack : RU_2010_F_PACK_1,
+		pack : RU_2010_F_PACK_2,
 		group : 'Люся Чеботина',
 		song : "Соблазн (2018)"
 	},
 	{
-		pack : RU_2010_F_PACK_1,
+		pack : RU_2010_F_PACK_2,
 		group : 'Люся Чеботина',
-		song : "Ночью и днём (2018)"
+		song : "Ночью и днём (2018)",
+		ignore : true
 	},
 	{
-		pack : RU_2010_F_PACK_1,
+		pack : RU_2010_F_PACK_2,
 		group : 'Люся Чеботина',
 		song : "Солнце Монако (2021)"
 	},
 	{
-		pack : RU_2010_F_PACK_1,
+		pack : RU_2010_F_PACK_2,
 		group : 'Mary Gu',
 		song : "Не влюбляйся (2020)"
 	},
 	{
-		pack : RU_2010_F_PACK_1,
+		pack : RU_2010_F_PACK_2,
 		group : 'Mary Gu',
 		song : "Грустный Новый год (2019)"
 	},
 	{
-		pack : RU_2010_F_PACK_1,
+		pack : RU_2010_F_PACK_2,
 		group : 'Mary Gu',
 		song : "Я не прощаю (2018)"
 	},
@@ -597,32 +600,32 @@ let ru_2010_f = [
 		song : "Хьюстон (2016)"
 	},
 	{
-		pack : RU_2010_F_PACK_1,
+		pack : RU_2010_F_PACK_2,
 		group : 'Elvira T',
 		song : "Всё решено (2011)"
 	},
 	{
-		pack : RU_2010_F_PACK_1,
+		pack : RU_2010_F_PACK_2,
 		group : 'Elvira T',
 		song : "Такси (2016)"
 	},
 	{
-		pack : RU_2010_F_PACK_1,
+		pack : RU_2010_F_PACK_2,
 		group : 'Elvira T',
 		song : "Зараза (2018)"
 	},
 	{
-		pack : RU_2010_F_PACK_1,
+		pack : RU_2010_F_PACK_2,
 		group : 'Kristina Si',
 		song : "Хочу (2016)"
 	},
 	{
-		pack : RU_2010_F_PACK_1,
+		pack : RU_2010_F_PACK_2,
 		group : 'Kristina Si',
 		song : "Mama Boss (2014)"
 	},
 	{
-		pack : RU_2010_F_PACK_1,
+		pack : RU_2010_F_PACK_2,
 		group : 'Kristina Si',
 		song : "Тебе не будет больно (2016)"
 	},
@@ -645,10 +648,26 @@ let ru_2010_f = [
 		pack : RU_2010_F_PACK_1,
 		group : 'Таисия Повалий',
 		song : "Чай с молоком (2016)"
+	},
+	{
+		pack : RU_2010_F_PACK_2,
+		group : 'Ольга Бузова',
+		song : "Мало половин (2017)"
+	},
+	{
+		pack : RU_2010_F_PACK_2,
+		group : 'Ольга Бузова',
+		song : "Привыкаю (2017)"
+	},
+	{
+		pack : RU_2010_F_PACK_2,
+		group : 'Ольга Бузова',
+		song : "Хит-парад (2017)"
 	}
 ];
 
 let ru_2010_f_1 =	ru_2010_f.filter(item => item.pack == 1);
+let ru_2010_f_2 =	ru_2010_f.filter(item => item.pack == 2);
 
 let music = [
 	{
@@ -659,7 +678,11 @@ let music = [
 		packs: [
 				{
 					arr: ru_2010_f_1,
-					name: 'RU 2010s Female: Pop',
+					name: 'RU 2010s Female: Pop Old',
+				},
+				{
+					arr: ru_2010_f_2,
+					name: 'RU 2010s Female: Pop New',
 				}
 			]
 	}
