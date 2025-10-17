@@ -343,8 +343,8 @@ function load(){
 
 // RU songs
 const ru_2010_f_icon = [
-	'ru_pop',
-	'ru_pop_2'
+	'older',
+	'younger'
 ];
 
 const RU_2010_F_PACK_1 = 1;
