@@ -627,7 +627,8 @@ let ru_2010_f = [
 	{
 		pack : RU_2010_F_PACK_2,
 		group : 'Kristina Si',
-		song : "Тебе не будет больно (2016)"
+		song : "Тебе не будет больно (2016)",
+		ignore : true
 	},
 	{
 		pack : RU_2010_F_PACK_1,
@@ -668,6 +669,21 @@ let ru_2010_f = [
 		pack : RU_2010_F_PACK_2,
 		group : 'Эмма М',
 		song : "Плавишь (2019)"
+	},
+	{
+		pack : RU_2010_F_PACK_2,
+		group : 'алёна швец.',
+		song : "Глухой музыкант, слепой художник (2018)"
+	},
+	{
+		pack : RU_2010_F_PACK_2,
+		group : 'Женя Любич',
+		song : "Russian Girl (2010)"
+	},
+	{
+		pack : RU_2010_F_PACK_2,
+		group : 'Kristina Si',
+		song : "Ну Ну Да (2013)"
 	}
 ];
 
