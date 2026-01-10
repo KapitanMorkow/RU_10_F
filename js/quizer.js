@@ -826,6 +826,11 @@ let ru_2010_f = [
 		pack : RU_2010_F_PACK_3,
 		group : 'Юля Паршута',
 		song : "АМЕЛИ (2019)"
+	},
+	{
+		pack : RU_2010_F_PACK_3,
+		group : 'NIVESTA',
+		song : "ПОЗВОНИ (ft DJ Smash) (2022)"
 	}
 ];
 
