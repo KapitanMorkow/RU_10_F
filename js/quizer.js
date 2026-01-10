@@ -836,6 +836,11 @@ let ru_2010_f = [
 		pack : RU_2010_F_PACK_3,
 		group : 'Kiliana',
 		song : "Асфальт (ft Jakone) (2024)"
+	},
+	{
+		pack : RU_2010_F_PACK_3,
+		group : 'Never Get Used To People',
+		song : "Life Letters (2018)"
 	}
 ];
 
