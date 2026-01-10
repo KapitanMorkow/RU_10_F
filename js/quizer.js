@@ -344,11 +344,13 @@ function load(){
 // RU songs
 const ru_2010_f_icon = [
 	'older',
-	'younger'
+	'younger',
+	'pop'
 ];
 
 const RU_2010_F_PACK_1 = 1;
 const RU_2010_F_PACK_2 = 2;
+const RU_2010_F_PACK_3 = 3;
 
 let ru_2010_f = [
 	{
@@ -469,12 +471,12 @@ let ru_2010_f = [
 	},
 	{
 		pack : RU_2010_F_PACK_2,
-		group : 'Анна Асти',
+		group : 'Anna Asti',
 		song : "Без тебя (2019)"
 	},
 	{
 		pack : RU_2010_F_PACK_2,
-		group : 'Анна Асти',
+		group : 'Anna Asti',
 		song : "По барам (2022)"
 	},
 	{
@@ -514,7 +516,7 @@ let ru_2010_f = [
 	},
 	{
 		pack : RU_2010_F_PACK_2,
-		group : 'Анна Асти',
+		group : 'Anna Asti',
 		song : "Бумеранг (2023)"
 	},
 	{
@@ -666,17 +668,17 @@ let ru_2010_f = [
 		song : "Хит-парад (2017)"
 	},
 	{
-		pack : RU_2010_F_PACK_2,
+		pack : RU_2010_F_PACK_3,
 		group : 'Эмма М',
 		song : "Плавишь (2019)"
 	},
 	{
-		pack : RU_2010_F_PACK_2,
+		pack : RU_2010_F_PACK_3,
 		group : 'алёна швец.',
 		song : "Глухой музыкант, слепой художник (2018)"
 	},
 	{
-		pack : RU_2010_F_PACK_2,
+		pack : RU_2010_F_PACK_3,
 		group : 'Женя Любич',
 		song : "Russian Girl (2010)"
 	},
@@ -684,11 +686,152 @@ let ru_2010_f = [
 		pack : RU_2010_F_PACK_2,
 		group : 'Kristina Si',
 		song : "Ну Ну Да (2013)"
+	},
+	{
+		pack : RU_2010_F_PACK_3,
+		group : 'Maruv',
+		song : "Siren Song (2019)"
+	},
+	{
+		pack : RU_2010_F_PACK_3,
+		group : 'MIRAVI',
+		song : "Воля (2024)"
+	},
+	{
+		pack : RU_2010_F_PACK_3,
+		group : 'MONA',
+		song : "Иордан (2024)"
+	},
+	{
+		pack : RU_2010_F_PACK_3,
+		group : 'Наргиз',
+		song : "Нелюбимая дочь (2019)"
+	},
+	{
+		pack : RU_2010_F_PACK_3,
+		group : 'polnalyubvi',
+		song : "Кометы (2020)"
+	},
+	{
+		pack : RU_2010_F_PACK_3,
+		group : 'GUMA',
+		song : "Стеклянная (2021)"
+	},
+	{
+		pack : RU_2010_F_PACK_3,
+		group : 'Betsy & Мария Янковская',
+		song : "Сигма Бой (2024)"
+	},
+	{
+		pack : RU_2010_F_PACK_3,
+		group : 'Анет Сай',
+		song : "В летних кроссах (2021)"
+	},
+	{
+		pack : RU_2010_F_PACK_3,
+		group : 'лилу45',
+		song : "Моя душа (2022)"
+	},
+	{
+		pack : RU_2010_F_PACK_3,
+		group : 'нексюша',
+		song : "Вечная тоска (2024)"
+	},
+	{
+		pack : RU_2010_F_PACK_3,
+		group : 'просто Лера',
+		song : "Светофоры (2020)"
+	},
+	{
+		pack : RU_2010_F_PACK_3,
+		group : 'Стереополина',
+		song : "Последнее свидание (2020)"
+	},
+	{
+		pack : RU_2010_F_PACK_3,
+		group : 'Марьяна Ро',
+		song : "Идиоты (2023)"
+	},
+	{
+		pack : RU_2010_F_PACK_3,
+		group : 'Tatarka',
+		song : "Altyn (2016)"
+	},
+	{
+		pack : RU_2010_F_PACK_3,
+		group : 'TERESHINA',
+		song : "Обломки чувств (2011)"
+	},
+	{
+		pack : RU_2010_F_PACK_3,
+		group : 'Анна Седокова',
+		song : "Пока, милый! (2015)"
+	},
+	{
+		pack : RU_2010_F_PACK_3,
+		group : 'Асия',
+		song : "Лампочка (2022)"
+	},
+	{
+		pack : RU_2010_F_PACK_3,
+		group : 'Дана Соколова',
+		song : "Разведи небо (2016)"
+	},
+	{
+		pack : RU_2010_F_PACK_3,
+		group : 'Даша Суворова',
+		song : "Поставит Басту (2011)"
+	},
+	{
+		pack : RU_2010_F_PACK_3,
+		group : 'Екатерина Яшникова',
+		song : "Я останусь одна (2016)"
+	},
+	{
+		pack : RU_2010_F_PACK_3,
+		group : 'забей, лерочка',
+		song : "каждый, кто делал тебе больно (2021)"
+	},
+	{
+		pack : RU_2010_F_PACK_3,
+		group : 'Катя Гордон',
+		song : "Забирай рай (2016)"
+	},
+	{
+		pack : RU_2010_F_PACK_3,
+		group : 'Мужицкая Татьяна',
+		song : "Тётенькам за 30 (2017)"
+	},
+	{
+		pack : RU_2010_F_PACK_3,
+		group : 'Мэйби Бэйби',
+		song : "Принцесса Диана (2023)"
+	},
+	{
+		pack : RU_2010_F_PACK_3,
+		group : 'Ольга Кормухина',
+		song : "Путь (2012)"
+	},
+	{
+		pack : RU_2010_F_PACK_3,
+		group : 'ХАННА',
+		song : "Омар Хайям (2024)"
+	},
+	{
+		pack : RU_2010_F_PACK_3,
+		group : 'Юлия Коган',
+		song : "Никита (2015)"
+	},
+	{
+		pack : RU_2010_F_PACK_3,
+		group : 'Юля Паршута',
+		song : "АМЕЛИ (2019)"
 	}
 ];
 
 let ru_2010_f_1 =	ru_2010_f.filter(item => item.pack == 1);
 let ru_2010_f_2 =	ru_2010_f.filter(item => item.pack == 2);
+let ru_2010_f_3 =	ru_2010_f.filter(item => item.pack == 3);
 
 let music = [
 	{
@@ -704,6 +847,10 @@ let music = [
 				{
 					arr: ru_2010_f_2,
 					name: 'RU 2010s Female: Pop New',
+				},
+				{
+					arr: ru_2010_f_3,
+					name: 'RU 2010s Female: One Hit Wonders',
 				}
 			]
 	}
