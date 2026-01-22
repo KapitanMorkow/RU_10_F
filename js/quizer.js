@@ -345,12 +345,14 @@ function load(){
 const ru_2010_f_icon = [
 	'older',
 	'younger',
-	'pop'
+	'pop',
+	'pop_2',
 ];
 
 const RU_2010_F_PACK_1 = 1;
 const RU_2010_F_PACK_2 = 2;
 const RU_2010_F_PACK_3 = 3;
+const RU_2010_F_PACK_4 = 4;
 
 let ru_2010_f = [
 	{
@@ -673,12 +675,12 @@ let ru_2010_f = [
 		song : "Плавишь (2019)"
 	},
 	{
-		pack : RU_2010_F_PACK_3,
+		pack : RU_2010_F_PACK_4,
 		group : 'алёна швец.',
 		song : "Глухой музыкант, слепой художник (2018)"
 	},
 	{
-		pack : RU_2010_F_PACK_3,
+		pack : RU_2010_F_PACK_4,
 		group : 'Женя Любич',
 		song : "Russian Girl (2010)"
 	},
@@ -723,22 +725,22 @@ let ru_2010_f = [
 		song : "Сигма Бой (2024)"
 	},
 	{
-		pack : RU_2010_F_PACK_3,
+		pack : RU_2010_F_PACK_4,
 		group : 'Анет Сай',
 		song : "В летних кроссах (2021)"
 	},
 	{
-		pack : RU_2010_F_PACK_3,
+		pack : RU_2010_F_PACK_4,
 		group : 'лилу45',
 		song : "Моя душа (2022)"
 	},
 	{
-		pack : RU_2010_F_PACK_3,
+		pack : RU_2010_F_PACK_4,
 		group : 'нексюша',
 		song : "Вечная тоска (2024)"
 	},
 	{
-		pack : RU_2010_F_PACK_3,
+		pack : RU_2010_F_PACK_4,
 		group : 'просто Лера',
 		song : "Светофоры (2020)"
 	},
@@ -748,12 +750,12 @@ let ru_2010_f = [
 		song : "Последнее свидание (2020)"
 	},
 	{
-		pack : RU_2010_F_PACK_3,
+		pack : RU_2010_F_PACK_4,
 		group : 'Марьяна Ро',
 		song : "Идиоты (2023)"
 	},
 	{
-		pack : RU_2010_F_PACK_3,
+		pack : RU_2010_F_PACK_4,
 		group : 'Tatarka',
 		song : "Altyn (2016)"
 	},
@@ -763,7 +765,7 @@ let ru_2010_f = [
 		song : "Обломки чувств (2011)"
 	},
 	{
-		pack : RU_2010_F_PACK_3,
+		pack : RU_2010_F_PACK_4,
 		group : 'Анна Седокова',
 		song : "Пока, милый! (2015)"
 	},
@@ -783,12 +785,12 @@ let ru_2010_f = [
 		song : "Поставит Басту (2011)"
 	},
 	{
-		pack : RU_2010_F_PACK_3,
+		pack : RU_2010_F_PACK_4,
 		group : 'Екатерина Яшникова',
 		song : "Я останусь одна (2016)"
 	},
 	{
-		pack : RU_2010_F_PACK_3,
+		pack : RU_2010_F_PACK_4,
 		group : 'забей, лерочка',
 		song : "каждый, кто делал тебе больно (2021)"
 	},
@@ -798,7 +800,7 @@ let ru_2010_f = [
 		song : "Было или не было (2011)"
 	},
 	{
-		pack : RU_2010_F_PACK_3,
+		pack : RU_2010_F_PACK_4,
 		group : 'Мужицкая Татьяна',
 		song : "Тётенькам за 30 (2017)"
 	},
@@ -818,17 +820,17 @@ let ru_2010_f = [
 		song : "Омар Хайям (2024)"
 	},
 	{
-		pack : RU_2010_F_PACK_3,
+		pack : RU_2010_F_PACK_4,
 		group : 'Юлия Коган',
 		song : "Никита (2015)"
 	},
 	{
-		pack : RU_2010_F_PACK_3,
+		pack : RU_2010_F_PACK_4,
 		group : 'Юля Паршута',
 		song : "АМЕЛИ (2019)"
 	},
 	{
-		pack : RU_2010_F_PACK_3,
+		pack : RU_2010_F_PACK_4,
 		group : 'NIVESTA',
 		song : "ПОЗВОНИ (ft DJ Smash) (2022)"
 	},
@@ -838,20 +840,26 @@ let ru_2010_f = [
 		song : "Асфальт (ft Jakone) (2024)"
 	},
 	{
-		pack : RU_2010_F_PACK_3,
+		pack : RU_2010_F_PACK_4,
 		group : 'Never Get Used To People',
 		song : "Life Letters (2018)"
 	},
 	{
-		pack : RU_2010_F_PACK_3,
+		pack : RU_2010_F_PACK_4,
 		group : 'Катя Гордон',
 		song : "Забирай рай (2016)"
+	},
+	{
+		pack : RU_2010_F_PACK_4,
+		group : 'Элли на маковом поле',
+		song : "Любовь моя (2019)"
 	}
 ];
 
 let ru_2010_f_1 =	ru_2010_f.filter(item => item.pack == 1);
 let ru_2010_f_2 =	ru_2010_f.filter(item => item.pack == 2);
 let ru_2010_f_3 =	ru_2010_f.filter(item => item.pack == 3);
+let ru_2010_f_4 =	ru_2010_f.filter(item => item.pack == 4);
 
 let music = [
 	{
@@ -871,6 +879,10 @@ let music = [
 				{
 					arr: ru_2010_f_3,
 					name: 'RU 2010s Female: One Hit Wonders',
+				},
+				{
+					arr: ru_2010_f_4,
+					name: 'RU 2010s Female: One Hit Wonders less famous',
 				}
 			]
 	}
