@@ -794,8 +794,8 @@ let ru_2010_f = [
 	},
 	{
 		pack : RU_2010_F_PACK_3,
-		group : 'Катя Гордон',
-		song : "Забирай рай (2016)"
+		group : 'Лера Лера',
+		song : "Было или не было (2011)"
 	},
 	{
 		pack : RU_2010_F_PACK_3,
@@ -841,6 +841,11 @@ let ru_2010_f = [
 		pack : RU_2010_F_PACK_3,
 		group : 'Never Get Used To People',
 		song : "Life Letters (2018)"
+	},
+	{
+		pack : RU_2010_F_PACK_3,
+		group : 'Катя Гордон',
+		song : "Забирай рай (2016)"
 	}
 ];
 
