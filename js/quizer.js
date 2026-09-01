@@ -410,7 +410,8 @@ let ru_2010_f = [
 	{
 		pack : RU_2010_F_PACK_1,
 		group : 'Ёлка',
-		song : "Прованс (2010)"
+		song : "Прованс (2010)",
+		ignore : true
 	},
 	{
 		pack : RU_2010_F_PACK_1,
@@ -420,7 +421,8 @@ let ru_2010_f = [
 	{
 		pack : RU_2010_F_PACK_1,
 		group : 'Ёлка',
-		song : "На большом воздушном шаре (2011)"
+		song : "На большом воздушном шаре (2011)",
+		ignore : true
 	},
 	{
 		pack : RU_2010_F_PACK_1,
@@ -437,7 +439,8 @@ let ru_2010_f = [
 	{
 		pack : RU_2010_F_PACK_1,
 		group : 'Ёлка',
-		song : "Около тебя (2011)"
+		song : "Около тебя (2011)",
+		ignore : true
 	},
 	{
 		pack : RU_2010_F_PACK_1,
@@ -474,12 +477,14 @@ let ru_2010_f = [
 	{
 		pack : RU_2010_F_PACK_2,
 		group : 'Anna Asti',
-		song : "Без тебя (2019)"
+		song : "Без тебя (2019)",
+		ignore : true
 	},
 	{
 		pack : RU_2010_F_PACK_2,
 		group : 'Anna Asti',
-		song : "По барам (2022)"
+		song : "По барам (2022)",
+		ignore : true
 	},
 	{
 		pack : RU_2010_F_PACK_1,
@@ -494,17 +499,20 @@ let ru_2010_f = [
 	{
 		pack : RU_2010_F_PACK_2,
 		group : 'Zivert',
-		song : "Зеленые волны (2019)"
+		song : "Зеленые волны (2019)",
+		ignore : true
 	},
 	{
 		pack : RU_2010_F_PACK_2,
 		group : 'Zivert',
-		song : "Life (2018)"
+		song : "Life (2018)",
+		ignore : true
 	},
 	{
 		pack : RU_2010_F_PACK_2,
 		group : 'Zivert',
-		song : "Beverly Hills (2019)"
+		song : "Beverly Hills (2019)",
+		ignore : true
 	},
 	{
 		pack : RU_2010_F_PACK_1,
@@ -519,7 +527,8 @@ let ru_2010_f = [
 	{
 		pack : RU_2010_F_PACK_2,
 		group : 'Anna Asti',
-		song : "Бумеранг (2023)"
+		song : "Бумеранг (2023)",
+		ignore : true
 	},
 	{
 		pack : RU_2010_F_PACK_1,
@@ -677,7 +686,8 @@ let ru_2010_f = [
 	{
 		pack : RU_2010_F_PACK_4,
 		group : 'алёна швец.',
-		song : "Глухой музыкант, слепой художник (2018)"
+		song : "Глухой музыкант, слепой художник (2018)",
+		ignore : true
 	},
 	{
 		pack : RU_2010_F_PACK_4,
@@ -702,7 +712,8 @@ let ru_2010_f = [
 	{
 		pack : RU_2010_F_PACK_3,
 		group : 'MONA',
-		song : "Иордан (2024)"
+		song : "Иордан (2024)",
+		ignore : true
 	},
 	{
 		pack : RU_2010_F_PACK_3,
@@ -727,7 +738,8 @@ let ru_2010_f = [
 	{
 		pack : RU_2010_F_PACK_4,
 		group : 'Анет Сай',
-		song : "В летних кроссах (2021)"
+		song : "В летних кроссах (2021)",
+		ignore : true
 	},
 	{
 		pack : RU_2010_F_PACK_4,
@@ -747,12 +759,14 @@ let ru_2010_f = [
 	{
 		pack : RU_2010_F_PACK_3,
 		group : 'Стереополина',
-		song : "Последнее свидание (2020)"
+		song : "Последнее свидание (2020)",
+		ignore : true
 	},
 	{
 		pack : RU_2010_F_PACK_4,
 		group : 'Марьяна Ро',
-		song : "Идиоты (2023)"
+		song : "Идиоты (2023)",
+		ignore : true
 	},
 	{
 		pack : RU_2010_F_PACK_4,
@@ -767,12 +781,14 @@ let ru_2010_f = [
 	{
 		pack : RU_2010_F_PACK_4,
 		group : 'Анна Седокова',
-		song : "Пока, милый! (2015)"
+		song : "Пока, милый! (2015)",
+		ignore : true
 	},
 	{
 		pack : RU_2010_F_PACK_3,
 		group : 'Асия',
-		song : "Лампочка (2022)"
+		song : "Лампочка (2022)",
+		ignore : true
 	},
 	{
 		pack : RU_2010_F_PACK_3,
@@ -817,12 +833,14 @@ let ru_2010_f = [
 	{
 		pack : RU_2010_F_PACK_3,
 		group : 'ХАННА',
-		song : "Омар Хайям (2024)"
+		song : "Омар Хайям (2024)",
+		ignore : true
 	},
 	{
 		pack : RU_2010_F_PACK_4,
 		group : 'Юлия Коган',
-		song : "Никита (2015)"
+		song : "Никита (2015)",
+		ignore : true
 	},
 	{
 		pack : RU_2010_F_PACK_4,
@@ -847,7 +865,8 @@ let ru_2010_f = [
 	{
 		pack : RU_2010_F_PACK_4,
 		group : 'Катя Гордон',
-		song : "Забирай рай (2016)"
+		song : "Забирай рай (2016)",
+		ignore : true
 	},
 	{
 		pack : RU_2010_F_PACK_4,
