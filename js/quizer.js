@@ -877,6 +877,11 @@ let ru_2010_f = [
 		pack : RU_2010_F_PACK_3,
 		group : 'Тося Чайкина',
 		song : "Стрелы (ft Markul) (2022)"
+	},
+	{
+		pack : RU_2010_F_PACK_4,
+		group : 'ANIVAR',
+		song : "Любимый человек (2019)"
 	}
 ];
 
