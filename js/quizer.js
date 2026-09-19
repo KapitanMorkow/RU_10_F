@@ -538,7 +538,8 @@ let ru_2010_f = [
 	{
 		pack : RU_2010_F_PACK_2,
 		group : 'Мари Краймбрери',
-		song : "Пряталась в ванной (2020)"
+		song : "Пряталась в ванной (2020)",
+		ignore : true
 	},
 	{
 		pack : RU_2010_F_PACK_1,
@@ -565,12 +566,14 @@ let ru_2010_f = [
 	{
 		pack : RU_2010_F_PACK_2,
 		group : 'Люся Чеботина',
-		song : "Солнце Монако (2021)"
+		song : "Солнце Монако (2021)",
+		ignore : true
 	},
 	{
 		pack : RU_2010_F_PACK_2,
 		group : 'Mary Gu',
-		song : "Не влюбляйся (2020)"
+		song : "Не влюбляйся (2020)",
+		ignore : true
 	},
 	{
 		pack : RU_2010_F_PACK_2,
@@ -707,7 +710,8 @@ let ru_2010_f = [
 	{
 		pack : RU_2010_F_PACK_3,
 		group : 'MIRAVI',
-		song : "Воля (2024)"
+		song : "Воля (2024)",
+		ignore : true
 	},
 	{
 		pack : RU_2010_F_PACK_3,
@@ -723,17 +727,20 @@ let ru_2010_f = [
 	{
 		pack : RU_2010_F_PACK_3,
 		group : 'polnalyubvi',
-		song : "Кометы (2020)"
+		song : "Кометы (2020)",
+		ignore : true
 	},
 	{
 		pack : RU_2010_F_PACK_3,
 		group : 'GUMA',
-		song : "Стеклянная (2021)"
+		song : "Стеклянная (2021)",
+		ignore : true
 	},
 	{
 		pack : RU_2010_F_PACK_3,
 		group : 'Betsy & Мария Янковская',
-		song : "Сигма Бой (2024)"
+		song : "Сигма Бой (2024)",
+		ignore : true
 	},
 	{
 		pack : RU_2010_F_PACK_4,
@@ -744,17 +751,20 @@ let ru_2010_f = [
 	{
 		pack : RU_2010_F_PACK_4,
 		group : 'лилу45',
-		song : "Моя душа (2022)"
+		song : "Моя душа (2022)",
+		ignore : true
 	},
 	{
 		pack : RU_2010_F_PACK_4,
 		group : 'нексюша',
-		song : "Вечная тоска (2024)"
+		song : "Вечная тоска (2024)",
+		ignore : true
 	},
 	{
 		pack : RU_2010_F_PACK_4,
 		group : 'просто Лера',
-		song : "Светофоры (2020)"
+		song : "Светофоры (2020)",
+		ignore : true
 	},
 	{
 		pack : RU_2010_F_PACK_3,
@@ -808,7 +818,8 @@ let ru_2010_f = [
 	{
 		pack : RU_2010_F_PACK_4,
 		group : 'забей, лерочка',
-		song : "каждый, кто делал тебе больно (2021)"
+		song : "каждый, кто делал тебе больно (2021)",
+		ignore : true
 	},
 	{
 		pack : RU_2010_F_PACK_3,
@@ -823,7 +834,8 @@ let ru_2010_f = [
 	{
 		pack : RU_2010_F_PACK_3,
 		group : 'Мэйби Бэйби',
-		song : "Принцесса Диана (2023)"
+		song : "Принцесса Диана (2023)",
+		ignore : true
 	},
 	{
 		pack : RU_2010_F_PACK_3,
@@ -850,12 +862,14 @@ let ru_2010_f = [
 	{
 		pack : RU_2010_F_PACK_4,
 		group : 'NIVESTA',
-		song : "ПОЗВОНИ (ft DJ Smash) (2022)"
+		song : "ПОЗВОНИ (ft DJ Smash) (2022)",
+		ignore : true
 	},
 	{
 		pack : RU_2010_F_PACK_3,
 		group : 'Kiliana',
-		song : "Асфальт (ft Jakone) (2024)"
+		song : "Асфальт (ft Jakone) (2024)",
+		ignore : true
 	},
 	{
 		pack : RU_2010_F_PACK_4,
@@ -876,7 +890,8 @@ let ru_2010_f = [
 	{
 		pack : RU_2010_F_PACK_3,
 		group : 'Тося Чайкина',
-		song : "Стрелы (ft Markul) (2022)"
+		song : "Стрелы (ft Markul) (2022)",
+		ignore : true
 	},
 	{
 		pack : RU_2010_F_PACK_4,
