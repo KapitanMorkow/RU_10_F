@@ -693,7 +693,7 @@ let ru_2010_f = [
 		ignore : true
 	},
 	{
-		pack : RU_2010_F_PACK_4,
+		pack : RU_2010_F_PACK_3,
 		group : 'Женя Любич',
 		song : "Russian Girl (2010)"
 	},
@@ -779,7 +779,7 @@ let ru_2010_f = [
 		ignore : true
 	},
 	{
-		pack : RU_2010_F_PACK_4,
+		pack : RU_2010_F_PACK_3,
 		group : 'Tatarka',
 		song : "Altyn (2016)"
 	},
@@ -811,7 +811,7 @@ let ru_2010_f = [
 		song : "Поставит Басту (2011)"
 	},
 	{
-		pack : RU_2010_F_PACK_4,
+		pack : RU_2010_F_PACK_3,
 		group : 'Екатерина Яшникова',
 		song : "Я останусь одна (2016)"
 	},
@@ -827,8 +827,8 @@ let ru_2010_f = [
 		song : "Было или не было (2011)"
 	},
 	{
-		pack : RU_2010_F_PACK_4,
-		group : 'Мужицкая Татьяна',
+		pack : RU_2010_F_PACK_3,
+		group : 'Татьяна Мужицкая',
 		song : "Тётенькам за 30 (2017)"
 	},
 	{
@@ -855,9 +855,10 @@ let ru_2010_f = [
 		ignore : true
 	},
 	{
-		pack : RU_2010_F_PACK_4,
+		pack : RU_2010_F_PACK_3,
 		group : 'Юля Паршута',
-		song : "АМЕЛИ (2019)"
+		song : "АМЕЛИ (2019)",
+		ignore : true
 	},
 	{
 		pack : RU_2010_F_PACK_4,
@@ -872,7 +873,7 @@ let ru_2010_f = [
 		ignore : true
 	},
 	{
-		pack : RU_2010_F_PACK_4,
+		pack : RU_2010_F_PACK_3,
 		group : 'Never Get Used To People',
 		song : "Life Letters (2018)"
 	},
@@ -883,7 +884,7 @@ let ru_2010_f = [
 		ignore : true
 	},
 	{
-		pack : RU_2010_F_PACK_4,
+		pack : RU_2010_F_PACK_3,
 		group : 'Элли на маковом поле',
 		song : "Любовь моя (2019)"
 	},
@@ -894,7 +895,7 @@ let ru_2010_f = [
 		ignore : true
 	},
 	{
-		pack : RU_2010_F_PACK_4,
+		pack : RU_2010_F_PACK_3,
 		group : 'ANIVAR',
 		song : "Любимый человек (2019)"
 	}
