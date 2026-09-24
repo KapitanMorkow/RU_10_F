@@ -720,7 +720,7 @@ let ru_2010_f = [
 		ignore : true
 	},
 	{
-		pack : RU_2010_F_PACK_3,
+		pack : RU_2010_F_PACK_1,
 		group : 'Наргиз',
 		song : "Нелюбимая дочь (2019)"
 	},
@@ -898,6 +898,11 @@ let ru_2010_f = [
 		pack : RU_2010_F_PACK_3,
 		group : 'ANIVAR',
 		song : "Любимый человек (2019)"
+	},
+	{
+		pack : RU_2010_F_PACK_3,
+		group : 'Севара',
+		song : "Там нет меня (2013)"
 	}
 ];
 
