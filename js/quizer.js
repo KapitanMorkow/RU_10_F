@@ -687,10 +687,9 @@ let ru_2010_f = [
 		song : "Плавишь (2019)"
 	},
 	{
-		pack : RU_2010_F_PACK_4,
+		pack : RU_2010_F_PACK_2,
 		group : 'алёна швец.',
-		song : "Глухой музыкант, слепой художник (2018)",
-		ignore : true
+		song : "Глухой музыкант, слепой художник (2018)"
 	},
 	{
 		pack : RU_2010_F_PACK_3,
@@ -929,10 +928,6 @@ let music = [
 				{
 					arr: ru_2010_f_3,
 					name: 'RU 2010s Female: One Hit Wonders',
-				},
-				{
-					arr: ru_2010_f_4,
-					name: 'RU 2010s Female: One Hit Wonders less famous',
 				}
 			]
 	}
